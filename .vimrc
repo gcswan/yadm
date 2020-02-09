@@ -1,19 +1,19 @@
+" Edit .vimrc 
 nnoremap <F4> :e $MYVIMRC<CR>
 
-"##### Vim Ui #####
-
-"remap escape
+" Escape
 inoremap jj <Esc>
 
-"remap leader
+" Leader
 let mapleader = "\<space>"
 
-"save file with leader s
+" Save
 nnoremap <leader>s :w<cr>
 
-"quit file with Leader q
+" Quit
 noremap <leader>q :q<cr>
 
+" Paste mode
 set pastetoggle=<leader>z
 
 "mouse mode on
@@ -188,10 +188,10 @@ call vundle#end()            " required
 
 filetype plugin indent on    " required
 
+syntax on
 set noshowmode
 colorscheme PaperColor
 set background=dark
-syntax on
 
 "########## FZF ##########
 "set rtp+=~/usr/bin/fzf
@@ -202,6 +202,7 @@ nmap <Leader>r : Tags<CR>
 
 "########## SilverSearcher ##########
 let g:ackprg = 'ag --nogroup --nocolor --column'
+nnoremap <Leader>i :Ag<CR>
 
 "########## Line Numbering ##########
 set number relativenumber

@@ -81,7 +81,7 @@ ZSH_THEME="powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(tmux docker docker-compose git fzf-zsh)
+#plugins=(tmux docker docker-compose git fzf-zsh)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -125,3 +125,4 @@ if [ -n "${commands[fzf-share]}" ]; then
 fi
 
 
+source ~/powerlevel10k/powerlevel10k.zsh-theme
