@@ -1,0 +1,20 @@
+pane	0	1	:deploy	0	:-	1	:/home/gswan/code/3data/deploy	1	zsh	:
+pane	0	2	:chevron/belvedere	0	:	1	:/home/gswan/code/3data/deploy/chevron/belvedere	1	vim	:vim
+pane	0	2	:chevron/belvedere	0	:	2	:/home/gswan/code/3data/deploy/chevron/belvedere	0	git	:git diff server/api/config.js
+pane	0	2	:chevron/belvedere	0	:	3	:/home/gswan/code/3data/deploy/chevron/belvedere	0	zsh	:
+pane	0	2	:chevron/belvedere	0	:	4	:/home/gswan/code/3data/deploy/chevron/belvedere	0	zsh	:
+pane	0	3	:chevron/admin	0	:#	1	:/home/gswan/code/3data/deploy/chevron/admin	1	vim	:vim
+pane	0	3	:chevron/admin	0	:#	2	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	3	:chevron/admin	0	:#	3	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	3	:chevron/admin	0	:#	4	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	4	:chevron/aperture	0	:#	1	:/home/gswan/code/3data/deploy/chevron/aperture	1	vim	:vim
+pane	0	4	:chevron/aperture	0	:#	2	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	4	:chevron/aperture	0	:#	3	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	4	:chevron/aperture	0	:#	4	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	5	:general	1	:*	1	:/home/gswan	1	vim	:vim .tmux.conf
+window	0	1	0	:-	b95d,272x62,0,0,0
+window	0	2	0	:	f796,272x62,0,0{136x62,0,0[136x31,0,0,1,136x30,0,32,6],135x62,137,0[135x31,137,0,4,135x30,137,32,5]}
+window	0	3	0	:#	77cb,272x62,0,0{136x62,0,0[136x31,0,0,7,136x30,0,32,8],135x62,137,0[135x31,137,0,9,135x30,137,32,2]}
+window	0	4	0	:#	44eb,272x62,0,0[272x31,0,0{136x31,0,0,11,135x31,137,0,3},272x30,0,32{136x30,0,32,10,135x30,137,32,12}]
+window	0	5	1	:*	5ce8,272x62,0,0,19
+state	0	

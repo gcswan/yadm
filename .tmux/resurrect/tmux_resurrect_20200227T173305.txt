@@ -1,0 +1,13 @@
+pane	0	1	:belvedere-chev	0	:-	1	:/home/gswan/code/3data/deploy/chevron/belvedere	1	vim	:vim package.json
+pane	0	1	:belvedere-chev	0	:-	2	:/home/gswan/code/3data/deploy/chevron/belvedere	0	zsh	:
+pane	0	1	:belvedere-chev	0	:-	3	:/home/gswan/code/3data/deploy/chevron/belvedere	0	zsh	:
+pane	0	1	:belvedere-chev	0	:-	4	:/home/gswan/code/3data/deploy/chevron/belvedere	0	node	:node /home/gswan/.nvm/versions/node/v8.17.0/bin/terminalizer record app-mongo-authentication
+pane	0	2	:aperture-chev	0	:	1	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	2	:aperture-chev	0	:	2	:/home/gswan/code/3data/deploy/chevron/aperture/src	1	zsh	:
+pane	0	2	:aperture-chev	0	:	3	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	3	:chevron/admin	1	:*	1	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	3	:chevron/admin	1	:*	2	:/home/gswan/code/3data/deploy/chevron/admin	1	zsh	:
+window	0	1	0	:-	70a2,211x49,0,0[211x32,0,0{133x32,0,0,0,77x32,134,0,8},211x16,0,33{105x16,0,33,1,105x16,106,33,2}]
+window	0	2	0	:	d251,211x49,0,0[211x42,0,0{125x42,0,0,4,85x42,126,0,5},211x6,0,43,3]
+window	0	3	1	:*	9ca7,211x49,0,0[211x39,0,0,6,211x9,0,40,9]
+state	0	

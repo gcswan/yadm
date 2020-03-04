@@ -11,17 +11,27 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+set XDG_CONFIG_HOME='~/.tmux/plugins/tpm/tpm'
+
+
+powerline-daemon -q
+. /usr/share/powerline/bindings/zsh/powerline.zsh
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-ZSH_THEME="powerlevel10k"
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+#ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="powerlevel10k"
 #ZSH_THEME="random"
 #ZSH_THEME="af-magic"
 #ZSH_THEME="peepcode"
 #ZSH_THEME="miloshadzic"
 #ZSH_THEME="gozilla" 
+#ZSH_THEME="refined"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -124,5 +134,45 @@ if [ -n "${commands[fzf-share]}" ]; then
   source "$(fzf-share)/key-bindings.zsh"
 fi
 
+# Util aliases 
+alias l='ls -lart'
+alias c='clear'
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+# cd project aliases
+alias 3d='cd ~/code/3data && ls -lart'
+alias blvdr='cd ~/code/3data/belvedere && ls -lart && git status && taskbook'
+alias aperture='cd ~/code/3data/aperture && ls -lart && git status && taskbook'
+alias admin='cd ~/code/3data/admin && ls -lart && git status && taskbook' 
+alias chev-aptr='cd ~/code/3data/deploy/chevron/admin && ls -lart && git status && taskbook'
+alias chev-blvdr='cd ~/code/3data/deploy/chevron/admin && ls -lart && git status && taskbook'
+alias chev-admin='cd ~/code/3data/deploy/chevron/admin && ls -lart && git status && taskbook'
+alias chevron='cd ~/code/3data/deploy/chevron && ls -lart && git status && taskbook'
+
+# Taskbook aliases
+alias tb='taskbook'
+alias task='taskbook --task'
+alias check='taskbook --check'
+
+# Vim Config aliases
+alias vimrc='vim ~/.vimrc'
+alias zshrc='vim ~/.zshrc'
+alias tmux.conf='vim ~/.tmux.conf'
+
+# Source Config Files
+alias rz='source ~/.zshrc'
+alias rv='source ~/.vimrc'
+
+# Git Aliases
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gf='git fetch'
+alias gb='git branch'
+alias gd='git diff'
+
+
+# NVM aliases
+alias nvmc='nvm current'
+alias nvmuc='nvm use current'
+alias n813='nvm use v8.13.0'
+alias n817='nvm use v8.17.0'

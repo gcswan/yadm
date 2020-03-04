@@ -162,13 +162,17 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vim-vue-plugin
 
 call vundle#begin()
 
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes' 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'christoomey/vim-system-copy'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
@@ -177,12 +181,13 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'joshdick/onedark.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flrnprz/plastic.vim'
 Plugin 'rafi/awesome-vim-colorschemes'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'preservim/nerdcommenter'
+Plugin 'simeji/winresizer'
+Plugin 'lepture/vim-jinja'
+Plugin 'storyn26383/vim-vue'
 
 call vundle#end()            " required
 
@@ -201,17 +206,30 @@ nmap <Leader>t : Files<CR>
 nmap <Leader>r : Tags<CR>
 
 "########## SilverSearcher ##########
-let g:ackprg = 'ag --nogroup --nocolor --column'
+let g:ackprg = 'ag -s -H --nopager --nogroup --nocolor --column'
 nnoremap <Leader>i :Ag<CR>
 
 "########## Line Numbering ##########
 set number relativenumber
 nnoremap <silent> <C-n> :set relativenumber!<cr>
-  
+
 "########## NERDTREE ##########
 nmap <F6> :NERDTreeToggle<CR>
 
 "########## Vim Rainbow ##########
 let g:rainbow_active = 1
 
+set list
+set listchars=tab:>-
 
+"######### Homemade Status Line #########
+
+Plugin 'leafOfTree/vim-vue-plugin'  
+"function! StatusLineGit()
+    "let l:branchname = GitBranch()
+    "return strlen(l:branchname) > 0?' '.l:branchname.' ':''
+"endfunction
+
+
+"set statusline=
+"set statusline+=%{StatusLineGit()}

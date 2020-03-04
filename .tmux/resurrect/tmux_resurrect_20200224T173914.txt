@@ -1,0 +1,21 @@
+pane	0	1	:deploy	0	:	1	:/home/gswan	1	zsh	:
+pane	0	2	:chevron/belvedere	0	:-	1	:/home/gswan/code/3data/deploy/chevron/belvedere	0	vim	:vim
+pane	0	2	:chevron/belvedere	0	:-	2	:/home/gswan/code/3data/deploy/chevron/cloud-vm-template-files	1	vim	:vim template.json
+pane	0	2	:chevron/belvedere	0	:-	3	:/home/gswan/code/3data/deploy/chevron/belvedere	0	zsh	:
+pane	0	2	:chevron/belvedere	0	:-	4	:/home/gswan/code/3data/deploy/chevron	0	zsh	:
+pane	0	3	:chevron/admin	0	:	1	:/home/gswan/code/3data/deploy/chevron/admin	1	vim	:vim
+pane	0	3	:chevron/admin	0	:	2	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	3	:chevron/admin	0	:	3	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	3	:chevron/admin	0	:	4	:/home/gswan/code/3data/deploy/chevron/admin	0	zsh	:
+pane	0	4	:chevron/aperture	0	:	1	:/home/gswan/code/3data/deploy/chevron/aperture	1	vim	:vim
+pane	0	4	:chevron/aperture	0	:	2	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	4	:chevron/aperture	0	:	3	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	4	:chevron/aperture	0	:	4	:/home/gswan/code/3data/deploy/chevron/aperture	0	zsh	:
+pane	0	5	:general	1	:*	1	:/home/gswan/code/3data/deploy/chevron	0	vim	:vim template-disk.json
+pane	0	5	:general	1	:*	2	:/home/gswan/code/3data/deploy/chevron	1	zsh	:
+window	0	1	0	:	b95d,272x62,0,0,0
+window	0	2	0	:-	22cd,211x49,0,0{105x49,0,0[105x24,0,0,1,105x24,0,25,6],105x49,106,0[105x24,106,0,4,105x24,106,25,5]}
+window	0	3	0	:	77cb,272x62,0,0{136x62,0,0[136x31,0,0,7,136x30,0,32,8],135x62,137,0[135x31,137,0,9,135x30,137,32,2]}
+window	0	4	0	:	44eb,272x62,0,0[272x31,0,0{136x31,0,0,11,135x31,137,0,3},272x30,0,32{136x30,0,32,10,135x30,137,32,12}]
+window	0	5	1	:*	c0c1,272x62,0,0{136x62,0,0,22,135x62,137,0,20}
+state	0	

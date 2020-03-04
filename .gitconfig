@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	email = greg.c.swan@gmail.com
+	email = greg@3data.io
 	name = Greg Swan
 
 [color]
